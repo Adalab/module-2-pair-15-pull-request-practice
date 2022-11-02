@@ -1,8 +1,17 @@
+.body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .head {
     background: #fc0;
     height: 100px;
     position: relative;
     width: 100px;
+    border-radius: 50%;
   }
   .face {
     font-family: 'courier new', serif;
